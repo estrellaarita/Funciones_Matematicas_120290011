@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Funciones_Matematicas.Views.Inicio"
+             BackgroundImageSource="fondo.jpg"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+                    <Label Text="Funciones Matematicas" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+                </Frame>
+            
+                
+
+                <ImageButton x:Name="btn_inicio"
+                         Source="calculadora.png"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions= "CenterAndExpand"
+                         Margin="100,5,100,0"
+                         Clicked="btn_inicio_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
